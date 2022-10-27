@@ -1,0 +1,33 @@
+{
+    "name": "@nfjs/minio-filestorage",
+    "version": "1.0.0",
+    "description": "MinIO File Storage",
+    "license": "MIT",
+    "type": "module",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/nf-framework/nf-minio-filestorage.git"
+    },
+    "author": {
+        "name": "Azat Yamalov",
+        "email": "yamalov.azat@live.com"
+    },
+    "contributors": [
+        {
+            "name": "Andrey Maksimov",
+            "email": "andrmaxmail@gmail.com"
+        },
+        {
+            "name": "Dmitry Boikov",
+            "email": "boikovdv@gmail.com"
+        }
+    ],
+    "exports": {
+        ".": "./index.js",
+        "./nf-module.js": "./nf-module.js"
+    },
+    "dependencies": {
+        "busboy": "^1.6.0",
+        "minio": "^7.0.32"
+    }
+}
