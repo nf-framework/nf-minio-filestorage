@@ -9,7 +9,7 @@ const meta = {
 
 function init() {
     web.on('POST', '/@nfjs/upload', { middleware: ['session', 'auth', 'files'], override: true }, upload, { bucket: 'uploads' });
-    web.on('GET', '/@nfjs/download/:fileName', { middleware: ['session', 'auth'], override: true }, download);
+    web.on('GET', '/@nfjs/download/:fileName', { middleware: ['session', 'auth'], override: true }, download, { bucket: 'uploads' });
 }
 
 export {
