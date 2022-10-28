@@ -27,7 +27,6 @@
         "./nf-module.js": "./nf-module.js"
     },
     "dependencies": {
-        "busboy": "^1.6.0",
         "minio": "^7.0.32"
     }
 }
