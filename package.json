@@ -1,6 +1,6 @@
 {
     "name": "@nfjs/minio-filestorage",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "MinIO File Storage",
     "license": "MIT",
     "type": "module",
