@@ -1,2 +1,2 @@
-import { upload} from "./lib/file-storage.js";
-export { upload };
+import { upload, download, getObject, putObject} from "./lib/file-storage.js";
+export { upload, download, getObject, putObject };
